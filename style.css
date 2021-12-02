@@ -1,0 +1,106 @@
+
+html, body {
+	height: 100%;
+	user-select: none;
+	-webkit-user-select: none;
+  background-color: rgb(255, 255, 255);
+}
+
+#container {
+  background-color: white;
+  width: 2000px;
+  height: 1000px;
+  background-image: url(img/world.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#info {
+  width: 1075px;
+  height: 150px;
+  position: relative;
+  top: 800px;
+  left: 525px;
+  border: 5px solid rgba(36, 88, 43, 0.61);
+  background-color: rgba(202, 18, 18, 0);
+  padding: 0.05em;
+  font-size: 1.0em;
+  font-family: Helvetica;
+
+}
+
+.clickArea {
+  width: 200px;
+  height: 200px;
+  border-radius: 125px;
+  background-color: rgb(30, 100, 45);
+  margin: 10px;
+  display: inline-block;
+  position: absolute;
+  opacity: 0.5;
+  transition: width 0.5s, height 0.5s, background-color 0.5s ease-in-out;
+
+  
+}
+
+.clickArea:hover {
+  width: 215px;
+  height: 215px;
+  background-color: rgb(100, 150, 112); 
+  cursor: pointer;
+}
+
+
+#USCA {
+  left: 150px;
+  top: 125px;
+}
+
+#SEAS {
+  left: 1425px;
+  top: 400px;
+}
+#MENA {
+  left: 925px;
+  top: 250px;
+}
+#EASI {
+  left: 1400px;
+  top: 175px;
+}
+#LAAM {
+  left: 350px;
+  top: 450px;
+}
+#PSEU {
+  left: 1000px;
+  top: 50px;
+}
+#SSAF {
+  left: 875px;
+  top: 475px;
+}
+#EAEU {
+  width: 150px;
+  height: 150px;
+  left: 900px;
+  top: 100px;
+  transition: width 0.5s, height 0.5s, background-color 0.5s ease-in-out;
+}
+#EAEU:hover {
+  width: 175px;
+  height: 175px;
+}
+#AUNZ {
+  left: 1550px;
+  top: 600px;
+}
+#SASI {
+  left: 1175px;
+  top: 300px;
+}
+#WEEU {
+  left: 750px;
+  top: 100px;
+}
+
